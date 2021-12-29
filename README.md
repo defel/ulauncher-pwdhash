@@ -1,5 +1,7 @@
 # PwdHash Extension
 
+![screenshot](https://raw.githubusercontent.com/defel/ulauncher-pwdhash/master/.github/assets/screenshot.png)
+
 Port of [Stanford PwhHash](https://crypto.stanford.edu/pwdhash/) to ULauncher.
 
 Some core parts were directly copied from [joostrijneveld/pwdhash-py](https://github.com/joostrijneveld/pwdhash-py)
