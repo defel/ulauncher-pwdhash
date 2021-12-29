@@ -1,31 +1,24 @@
 {
   "required_api_version": "^2.0.0",
-  "name": "Demo",
-  "description": "Demo extension",
-  "developer_name": "Aleksandr Gornostal",
+  "name": "pwdhash",
+  "description": "pwdhash",
+  "developer_name": "dfl",
   "icon": "images/icon.png",
   "options": {
     "query_debounce": 0.05
   },
   "preferences": [
     {
-      "id": "demo_kw",
+      "id": "pwdhash_kw",
       "type": "keyword",
-      "name": "Demo",
-      "default_value": "dm"
+      "name": "Pwdhash",
+      "default_value": "pwh"
     },
     {
-      "id": "item_name",
+      "id": "master_password",
       "type": "input",
-      "name": "Item name",
-      "description": "Name for each item",
-      "default_value": "Item"
-    },
-    {
-      "id": "memo",
-      "type": "text",
-      "name": "Memo",
-      "description": "Write something here",
+      "name": "master_password",
+      "description": "The Master Password",
       "default_value": ""
     }
   ]
